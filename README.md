@@ -45,7 +45,7 @@ hdrs=["header.hh"]
 
 cc_binary(
 name="myname"
-srcs=["main.cc"]
+srcs=["myfile.cc"]
 deps=[":mylib"]
 )
 ```
