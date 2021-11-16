@@ -34,3 +34,18 @@ test_obj.test_func();
 }
 
 ```
+BUILD
+bash```
+cc_library(
+
+name="mylib"
+srcs=["mycall.cc"]
+hdrs=["header.hh"]
+)   
+
+cc_binary(
+name="myname"
+srcs=["main.cc"]
+deps=[":mylib"]
+)
+```
