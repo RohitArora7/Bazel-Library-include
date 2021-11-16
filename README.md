@@ -35,7 +35,7 @@ test_obj.test_func();
 
 ```
 BUILD
-bash```
+```bash
 cc_library(
 
 name="mylib"
