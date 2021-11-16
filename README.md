@@ -12,3 +12,13 @@ public:
   void test_func();
 };
 ```
+mycall.cc
+```bash
+#include"header.hh"
+#include<iostream>
+
+void Test_class::test_func()
+{
+        std:: cout <<"mytext"<< std::endl;
+
+}
