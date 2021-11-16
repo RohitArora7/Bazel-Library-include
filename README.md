@@ -22,3 +22,15 @@ void Test_class::test_func()
         std:: cout <<"mytext"<< std::endl;
 
 }
+
+myfile.cc
+```bash
+#include"header.hh"
+
+int main(){
+Test_class test_obj;
+test_obj.test_func();
+
+}
+
+```
