@@ -48,4 +48,33 @@ name="myname"
 srcs=["myfile.cc"]
 deps=[":mylib"]
 )
+``
+
+To Build 
+```bash
+bazel build ...
 ```
+`
+To see the result 
+```bash
+./bazel-bin/mydir/myname
+```
+
+
+
+To Test
+
+BUILD 
+```bash
+cc_test(
+name="mytest",
+srcs=["test.cc"],
+deps=[":mylib"],
+)
+```
+
+To Build 
+```bash
+bazel test //mydir:mytest
+```
+
